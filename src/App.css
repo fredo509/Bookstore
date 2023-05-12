@@ -130,7 +130,7 @@ body {
   width: 12.313rem;
   height: 1.813rem;
   margin: 0.188rem 20.188rem 0 0;
-  font-family: RobotoSlab;
+  font-family: 'RobotoSlab', sans-serif;
   font-size: 1.375rem;
   font-weight: bold;
   font-stretch: normal;
@@ -138,14 +138,13 @@ body {
   line-height: normal;
   letter-spacing: -0.2px;
   color: #121212;
-
 }
 
 .auth {
   width: 6.688rem;
   height: 1.188rem;
   margin: 0.25rem 0 0;
-  font-family: RobotoSlab;
+  font-family: 'RobotoSlab', sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -160,7 +159,7 @@ body {
   height: 1.125rem;
   margin: 0 2.438rem 0 0;
   opacity: 0.5;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   font-weight: bold;
   font-stretch: normal;
@@ -174,7 +173,7 @@ body {
   width: 4.563rem;
   height: 1.188rem;
   margin: 0.188rem 0.938rem 0.125rem 0;
-  font-family: RobotoSlab;
+  font-family: 'RobotoSlab', sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -191,7 +190,7 @@ body {
   width: 3.375rem;
   height: 1.188rem;
   margin: 0.188rem 0.938rem 0.125rem 0;
-  font-family: RobotoSlab;
+  font-family: 'RobotoSlab', sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -208,7 +207,7 @@ body {
   width: 1.688rem;
   height: 1.188rem;
   margin: 0.188rem 18.625rem 0.125rem 1.063rem;
-  font-family: RobotoSlab;
+  font-family: 'RobotoSlab', sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -240,7 +239,7 @@ body {
   height: 1.125rem;
   margin: 0.438rem 4.938rem 0.75rem 0.75rem;
   opacity: 0.5;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   font-weight: normal;
   font-stretch: normal;
@@ -254,7 +253,7 @@ body {
   width: 4.25rem;
   height: 2.438rem;
   margin: 0.063rem 5.75rem 0 0.688rem;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: normal;
   font-stretch: normal;
@@ -265,11 +264,11 @@ body {
 }
 
 .cur {
-  width: 7.875rem;
+  width: 9.875rem;
   height: 1.125rem;
   margin: 0.063rem 3.625rem 0 3.688rem;
   opacity: 0.5;
-  font-family: RobotoSlab;
+  font-family: 'RobotoSlab', sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
   font-stretch: normal;
@@ -280,10 +279,10 @@ body {
 }
 
 .chap {
-  width: 4.688rem;
+  width: 6.688rem;
   height: 1.313rem;
   margin: 0.438rem 6.813rem 0.25rem 3.688rem;
-  font-family: RobotoSlab;
+  font-family: 'RobotoSlab', sans-serif;
   font-size: 1rem;
   font-weight: 300;
   font-stretch: normal;
@@ -300,7 +299,7 @@ body {
   padding: 0.438rem 1.188rem 0.5rem 1.375rem;
   border-radius: 3px;
   background-color: #0290ff;
-  font-family: RobotoSlab;
+  font-family: 'RobotoSlab', sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
   font-stretch: normal;
@@ -407,11 +406,7 @@ body {
 .bookChapter {
   border-left: solid 1px #cdcbd0;
   padding: 2% 0 2% 8%;
-}
-
-.currentChapter {
-  opacity: 0.5;
-  margin-top: 0;
+  width: 100%;
 }
 
 .updateProgress {
@@ -444,7 +439,7 @@ body {
   width: 100%;
   height: 1.5rem;
   margin: 1.813rem 32.75rem 1.188rem 0;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
   font-stretch: normal;
@@ -469,7 +464,7 @@ body {
   padding: 0.801rem 1.188rem 0.886rem 1.375rem;
   border-radius: 3px;
   background-color: #0290ff;
-  font-family: RobotoSlab;
+  font-family: 'RobotoSlab', sans-serif;
   font-size: 0.813rem;
   font-weight: bold;
   font-stretch: normal;
