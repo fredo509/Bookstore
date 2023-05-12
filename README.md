@@ -26,7 +26,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math Magicians App<a name="about-project"></a>
+# 📖 BookStore <a name="about-project"></a>
 
 **BookStore App** is an app you can use to add Book and add commments about the book you can also see the progress of your book completion.
 
@@ -200,7 +200,7 @@ I would like to thank **![](https://img.shields.io/badge/Microverse-blueviolet).
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ <a name="faq"></a>
+<!-- ## ❓ FAQ <a name="faq"></a> -->
 
 <!--
 - **[Question_1]**
