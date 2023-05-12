@@ -20,26 +20,26 @@ const BookCard = () => {
   const renderBooks = books.map((book) => (
     <div key={book.item_id} className="bookContainer">
       <div className="bookTitle">
-        <p>{book.category}</p>
-        <p>{book.title}</p>
-        <p>{book.author}</p>
+        <p className="cat">{book.category}</p>
+        <p className="tit">{book.title}</p>
+        <p className="auth">{book.author}</p>
         <ul className="buttonsList">
-          <li><button type="button">Comments</button></li>
-          <li><button type="button" onClick={() => dispatch(deleteBook(book.item_id))}>Remove</button></li>
-          <li><button type="button">Edit</button></li>
+          <li><button type="button" className="com">Comments</button></li>
+          <li><button type="button" onClick={() => dispatch(deleteBook(book.item_id))} className="rem">Remove</button></li>
+          <li><button type="button" className="edit">Edit</button></li>
         </ul>
       </div>
       <div className="bookChart">
-        <div>Chart</div>
+        <div className="Oval-2" />
         <div>
-          <p>progres</p>
-          <p>COMPLETED</p>
+          <p className="per">100%</p>
+          <p className="comp">Completed</p>
         </div>
       </div>
       <div className="bookChapter">
-        <p>currentChapter</p>
-        <p>chapterNumber</p>
-        <button type="button">Update Progress</button>
+        <p className="cur">CURRENT CHAPTER</p>
+        <p className="chap">Chapter 12</p>
+        <button type="button" className="up">UPDATE PROGRESS</button>
       </div>
     </div>
   ));

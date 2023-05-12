@@ -32,7 +32,7 @@ const AddBook = () => {
 
   return (
     <section className="addBook">
-      <h2>ADD NEW BOOK</h2>
+      <h2 className="addNB">ADD NEW BOOK</h2>
       <form className="addBookForm">
         <input
           value={values.title || ''}
@@ -40,6 +40,7 @@ const AddBook = () => {
           name="title"
           placeholder="Book title"
           onChange={handleChange}
+          className="select"
         />
 
         <input
@@ -48,9 +49,14 @@ const AddBook = () => {
           name="author"
           placeholder="author"
           onChange={handleChange}
+          className="select"
         />
 
-        <button type="submit" onClick={handleSubmit}>Add Book</button>
+        <select className="select">
+          <option>Categorie</option>
+        </select>
+
+        <button type="submit" onClick={handleSubmit} className="btnAdd">ADD BOOK</button>
       </form>
     </section>
   );
