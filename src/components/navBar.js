@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => (
   <nav className="navBar">
     <div className="navItems">
-      <h2>Bookstore CMS</h2>
+      <h2 id="logo">Bookstore CMS</h2>
       <ul className="navLinks">
         <li><Link to="/">Books</Link></li>
         <li><Link to="categories">Categories</Link></li>
